@@ -18,10 +18,18 @@ body {
     background-color: #fff;
 }
 
+.homebg{
+    background: url('https://i0.wp.com/www.builder.id/wp-content/uploads/2019/03/harga-kabel-listrik.jpg?fit=600%2C350&ssl=1') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 @media(min-width:768px) {
     #page-wrapper {
         position: inherit;
-        margin-left: 210px;
+        /* margin-left: 210px; */
         padding: 30px 15px 0 15px;
         border-left: 1px solid #e7e7e7;
     }
